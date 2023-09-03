@@ -73,18 +73,7 @@ package LiFxContainers
 
   }
 
-  function LiFxContainers::DbChanges() {
-
-//Perm Bans 
-
-//  Desert 
-dbi.update("INSERT INTO `account` (IsActive,IsGM,SteamID,VIPFLag) VALUES (0,0,76561198060145819,0) ON DUPLICATE KEY UPDATE IsActive = 0, IsGM = 0, SteamID = 76561198060145819, VIPFlag = 0;");
-dbi.update("INSERT INTO `account` (IsActive,IsGM,SteamID,VIPFLag) VALUES (0,0,76561199232462040,0) ON DUPLICATE KEY UPDATE IsActive = 0, IsGM = 0, SteamID = 76561199232462040, VIPFlag = 0;");
-// ムMathiasム☣
-// dbi.update("INSERT INTO `account` (IsActive,IsGM,SteamID,VIPFLag) VALUES (0,0,76561198843878768,0) ON DUPLICATE KEY UPDATE IsActive = 0, IsGM = 0, SteamID = 76561198843878768, VIPFlag = 0;");
-
-//AutoVip
-  
+  function LiFxContainers::DbChanges() {  
   }
 };
 activatePackage(LiFxContainers);
