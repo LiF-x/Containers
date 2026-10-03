@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "id": "Containers",
-  "name": "Container Changes",
+  "name": "Containers",
   "version": "1.0.1",
-  "description": "Raises container sizes on storage objects, carts and workstations, and increases room counts on houses.",
-  "authors": ["Warped Ibun", "Christophe Roblin"],
+  "description": "Knools (storage containers) from MMO introduced to LiF:YO.",
+  "authors": ["Warped Ibun"],
   "source": {
     "repo": "LiF-x/Containers",
     "commit": "3e3d283431c5f7349144ef06b8994bc897682e1e"
