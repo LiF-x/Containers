@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "Containers",
+  "name": "Containers",
+  "version": "1.0.1",
+  "description": "Knools (storage containers) from MMO introduced to LiF:YO.",
+  "authors": ["Warped Ibun"],
+  "source": {
+    "repo": "LiF-x/Containers",
+    "commit": "3e3d283431c5f7349144ef06b8994bc897682e1e"
+  },
+  "baseline": {
+    "gameBuild": "sha256:d47ef6156423f1226b6d07a1f31f81d3aa94bc460cc1ac76bcf7d7ef9c305d4a",
+    "steamBuildId": "11261643"
+  },
+  "license": "GPL-3.0-only",
+  "distribution": "hostable",
+  "dependencies": ["LiF-x/ServerAutoloader"],
+  "loadOrderHint": 100,
+  "files": {
+    "overlay": [
+      { "src": "mods/LiFx/Containers/", "dest": "mods/LiFx/Containers/" }
+    ],
+    "dataPatches": []
+  }
+}
